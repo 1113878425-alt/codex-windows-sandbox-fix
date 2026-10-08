@@ -1,0 +1,10 @@
+# PowerShell 脚本在 Windows 上以 CRLF 检出（保持 UTF-8 BOM 不与行尾转换冲突）
+*.ps1 text eol=crlf
+
+# 文档统一 LF
+*.md text eol=lf
+
+# 二进制
+*.png binary
+*.jpg binary
+*.zip binary
